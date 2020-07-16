@@ -1,0 +1,41 @@
+/*For navbar styling*/
+nav {
+	padding: 10px;
+	text-align: center;
+	float: right;
+}
+/*For footer styling*/
+footer{
+	padding: 5px;
+	color: white;
+	text-align: center;
+	border: 1px solid black;
+	position: absolute;
+	top: 96%;
+	width: 98%;
+	font-size: 20px;
+	background-color: black;
+	opacity: 0.8;
+}
+/*For styling each element of navbar*/
+nav ul li{
+	display: inline;
+	padding: 10px;
+	background-color: black;
+	opacity: 0.8;
+	border: 2px solid;
+	border-color: yellow;
+}
+a {
+	color: white;
+	text-decoration: none;
+}
+/*for using hover effect in navbar*/
+nav ul  li :hover{
+	opacity:0.9;
+	color: yellow;
+	border: 1px;
+	border-color: black;
+	padding: 10px;
+	font-size: 20px;
+}

@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title> Contact | Welcome</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="../CSS/Contactstyle.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<script type= "text/javascript" src = "..\JavaScript\Style.js"></script>
+	<!-- Starting of implementation of internal CSS -->
+	<style>
+		body {
+			background-image: url("../Image/contact3.JPEG");
+			background-repeat: no-repeat;
+			background-attachment: fixed;  
+			background-size: cover;
+		}
+	</style>
+	<!-- End of internal CSS -->
+</head>
+<body>
+
+	<nav>
+		<!-- Using unordered list for navbar -->
+		<ul>		
+			<li><a href="../index.html" class="action">Home</a></li>
+			<li><a href="CV.html">CV</a></li>
+			<li><a href="Blog.html">Blog</a></li>
+			<li><a href="Research.html">Research</a></li>
+			<li><a href="Contact.html">Contact </a></li>
+		</ul>		
+	</nav>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<h3>Get In Touch</h3>
+
+	<!-- Creating form and using internal CSS -->
+	<form name = "form" method="post" action="" onsubmit="validform()">
+		<fieldset style= " padding: 60px; position: absolute; top: 25%; left: 10%;">
+			<legend><b>Send Feedback</b> </legend>
+			<input style="width: 170px; height: 30px;" type="text" name="fullName" placeholder="Your Name"><br>
+			<br>
+			<input style="width: 170px; height: 30px;"  type="text" name="email" placeholder="Your Email"><br>
+
+			<br>
+			<input style="width: 170px; height: 30px;"  type="text" name="subject" placeholder="Subject"><br>
+			<br>
+			<textarea style="width: 300px; height: 100px; " name="Message" placeholder="Message"></textarea><br>
+			<br>
+			<label><b>Gender : </b></label>
+			<input type="radio" name="gender" checked><b>Male
+				<input type="radio" name="gender" >Female
+				<input type="radio" name="gender" >Other</b><br>
+				<br>
+				<label><b>Choose country : </b></label>
+				<select>
+					<option>Nepal</option>
+					<option>India</option>
+					<option>China</option>
+					<option>USA</option>
+				</select><br>
+				<br>
+				<div class="sub"> 
+					<b><input type="submit" name="submit" style="padding: 2px; color: black; background-color: yellow; font-size: 25px; border-color: black;"></b>
+				</div>
+			</fieldset>
+		</form>
+
+		<form>
+			<fieldset style=" padding: 60px; position: absolute; top: 25%; left: 50%;">
+				<legend><b> Contact Me</b></legend>
+				<p style="font-size: 20px;">Please feel free to contact me for suggestions and information.  </p>
+				<p><i class="fa fa-map-marker"></i><b>Dharan-01, Laxmi Sadak</b></p>
+				<p><i class="fa fa-phone"></i><b> 9861020023</b></p>
+				<p><i class="fa fa-envelope"></i><b> utsav.dhungana@gmail.com</b></p>
+				<p style="font-size: 20px;">Follow me on social media.</p>
+				<a target="_blank" href="https://www.facebook.com/utsav.dhungana.1" class="fa fa-facebook"></a>
+				<a target="_blank" href="https://www.instagram.com/utsav_dhungana/" class="fa fa-instagram"></a>
+				<a target="_blank" href="https://www.youtube.com/channel/UCO5A4CGfOiDDgmzl0t3AC_g?view_as=subscriber" class="fa fa-youtube"></a>
+			</fieldset>
+		</form>
+		<br>
+		<!-- footer section for copyright -->
+		<footer>
+			copyright &copy; 2020 Utsav Dhungana
+		</footer>
+	</body>
