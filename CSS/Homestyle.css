@@ -40,6 +40,13 @@ nav ul li :hover{
 	padding: 10px;
 	font-size: 20px;
 }
+
+body{
+	width: 100%
+	height: auto;
+
+}
+
 /*for styling body part having class name Home*/
 .Home h1 {
 	position: absolute;
